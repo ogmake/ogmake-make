@@ -1,0 +1,17 @@
+[
+  { "name": "url", "type": "url", "label": "Page URL", "required": true, "help": "Public http(s) page to capture." },
+  { "name": "width", "type": "uinteger", "label": "Width (px)", "required": true, "default": 1280 },
+  { "name": "height", "type": "uinteger", "label": "Height (px)", "help": "Default 800." },
+  { "name": "fullPage", "type": "boolean", "label": "Full Page", "help": "Capture the whole page (capped at 10000 px tall)." },
+  {
+    "name": "format",
+    "type": "select",
+    "label": "Format",
+    "default": "png",
+    "options": [
+      { "label": "PNG", "value": "png" },
+      { "label": "JPG", "value": "jpg" },
+      { "label": "WebP", "value": "webp" }
+    ]
+  }
+]

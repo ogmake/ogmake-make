@@ -1,0 +1,36 @@
+[
+  { "name": "template", "type": "text", "label": "Template", "required": true, "default": "basic", "help": "Template ID, e.g. basic or blog." },
+  {
+    "name": "fields",
+    "type": "array",
+    "label": "Template Fields",
+    "help": "Template params such as title, author, date.",
+    "spec": [
+      { "name": "name", "type": "text", "label": "Name", "required": true },
+      { "name": "value", "type": "text", "label": "Value" }
+    ]
+  },
+  {
+    "name": "format",
+    "type": "select",
+    "label": "Format",
+    "default": "png",
+    "options": [
+      { "label": "PNG", "value": "png" },
+      { "label": "JPG", "value": "jpg" },
+      { "label": "WebP", "value": "webp" },
+      { "label": "PDF", "value": "pdf" }
+    ]
+  },
+  {
+    "name": "preset",
+    "type": "select",
+    "label": "Preset",
+    "default": "og",
+    "options": [
+      { "label": "OG (1200x630)", "value": "og" },
+      { "label": "X", "value": "x" },
+      { "label": "Square", "value": "square" }
+    ]
+  }
+]

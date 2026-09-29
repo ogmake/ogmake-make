@@ -1,0 +1,14 @@
+{
+  "url": "/v1/screenshot",
+  "method": "POST",
+  "body": {
+    "url": "{{parameters.url}}",
+    "width": "{{parameters.width}}",
+    "height": "{{if(parameters.height; parameters.height; ignore)}}",
+    "fullPage": "{{if(parameters.fullPage; true; ignore)}}",
+    "format": "{{if(parameters.format; parameters.format; ignore)}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

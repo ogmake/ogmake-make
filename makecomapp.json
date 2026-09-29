@@ -1,0 +1,18 @@
+{
+  "fileVersion": 1,
+  "generalCodeFiles": {
+    "base": "base.imljson",
+    "groups": "groups.json"
+  },
+  "components": {
+    "connection": {
+      "ogmake": { "type": "basic", "label": "ogmake connection", "codeFiles": { "communication": "connections/ogmake/communication.imljson", "params": "connections/ogmake/parameters.imljson" } }
+    },
+    "module": {
+      "createImage": { "moduleType": "action", "label": "Create Image", "connection": "ogmake", "codeFiles": { "communication": "modules/create-image/api.imljson", "mappableParams": "modules/create-image/expect.imljson", "interface": "modules/create-image/interface.imljson" } },
+      "renderHtml": { "moduleType": "action", "label": "Render HTML", "connection": "ogmake", "codeFiles": { "communication": "modules/render-html/api.imljson", "mappableParams": "modules/render-html/expect.imljson", "interface": "modules/render-html/interface.imljson" } },
+      "screenshot": { "moduleType": "action", "label": "Screenshot URL", "connection": "ogmake", "codeFiles": { "communication": "modules/screenshot/api.imljson", "mappableParams": "modules/screenshot/expect.imljson", "interface": "modules/screenshot/interface.imljson" } },
+      "listTemplates": { "moduleType": "search", "label": "List Templates", "connection": "ogmake", "codeFiles": { "communication": "modules/list-templates/api.imljson", "interface": "modules/list-templates/interface.imljson" } }
+    }
+  }
+}

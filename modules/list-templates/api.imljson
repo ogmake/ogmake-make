@@ -1,0 +1,8 @@
+{
+  "url": "/v1/templates",
+  "method": "GET",
+  "response": {
+    "iterate": "{{body.templates}}",
+    "output": { "id": "{{item.id}}", "version": "{{item.version}}", "params": "{{item.params}}" }
+  }
+}

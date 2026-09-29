@@ -1,0 +1,9 @@
+[
+  {
+    "name": "apiKey",
+    "type": "password",
+    "label": "API Key",
+    "required": true,
+    "help": "Your og_live_... key from the ogmake dashboard."
+  }
+]

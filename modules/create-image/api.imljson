@@ -1,0 +1,13 @@
+{
+  "url": "/v1/images",
+  "method": "POST",
+  "body": {
+    "template": "{{parameters.template}}",
+    "params": "{{toCollection(parameters.fields, 'name', 'value')}}",
+    "format": "{{if(parameters.format; parameters.format; ignore)}}",
+    "preset": "{{if(parameters.preset; parameters.preset; ignore)}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

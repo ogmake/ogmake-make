@@ -1,0 +1,18 @@
+[
+  { "name": "html", "type": "text", "label": "HTML", "required": true, "multiline": true, "help": "HTML to render. JavaScript never runs; request body limit 300 KB." },
+  { "name": "css", "type": "text", "label": "CSS", "multiline": true, "help": "Extra CSS, injected as a style block." },
+  { "name": "width", "type": "uinteger", "label": "Width (px)", "required": true, "default": 1200 },
+  { "name": "height", "type": "uinteger", "label": "Height (px)", "required": true, "default": 630 },
+  {
+    "name": "format",
+    "type": "select",
+    "label": "Format",
+    "default": "png",
+    "options": [
+      { "label": "PNG", "value": "png" },
+      { "label": "JPG", "value": "jpg" },
+      { "label": "WebP", "value": "webp" },
+      { "label": "PDF", "value": "pdf" }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  { "name": "url", "type": "text", "label": "URL" },
+  { "name": "hash", "type": "text", "label": "Hash" },
+  { "name": "cached", "type": "boolean", "label": "Cached" },
+  { "name": "width", "type": "number", "label": "Width" },
+  { "name": "height", "type": "number", "label": "Height" },
+  { "name": "format", "type": "text", "label": "Format" },
+  { "name": "bytes", "type": "number", "label": "Bytes" },
+  { "name": "templateVersion", "type": "text", "label": "Template Version" }
+]

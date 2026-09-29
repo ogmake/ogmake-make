@@ -1,0 +1,14 @@
+{
+  "url": "/v1/images",
+  "method": "POST",
+  "body": {
+    "html": "{{parameters.html}}",
+    "css": "{{if(parameters.css; parameters.css; ignore)}}",
+    "width": "{{parameters.width}}",
+    "height": "{{parameters.height}}",
+    "format": "{{if(parameters.format; parameters.format; ignore)}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

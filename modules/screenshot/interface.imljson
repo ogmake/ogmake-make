@@ -1,0 +1,10 @@
+[
+  { "name": "url", "type": "text", "label": "URL" },
+  { "name": "hash", "type": "text", "label": "Hash" },
+  { "name": "width", "type": "number", "label": "Width" },
+  { "name": "height", "type": "number", "label": "Height" },
+  { "name": "fullPage", "type": "boolean", "label": "Full Page" },
+  { "name": "format", "type": "text", "label": "Format" },
+  { "name": "bytes", "type": "number", "label": "Bytes" },
+  { "name": "credits", "type": "number", "label": "Credits" }
+]

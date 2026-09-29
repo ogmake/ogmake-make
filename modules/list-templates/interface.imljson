@@ -1,0 +1,5 @@
+[
+  { "name": "id", "type": "text", "label": "Template ID" },
+  { "name": "version", "type": "text", "label": "Version" },
+  { "name": "params", "type": "collection", "label": "Params JSON Schema" }
+]

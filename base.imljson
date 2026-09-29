@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://ogmake.com",
+  "headers": {
+    "Authorization": "Bearer {{connection.apiKey}}",
+    "Content-Type": "application/json"
+  },
+  "response": {
+    "error": {
+      "message": "[{{statusCode}}] {{body.error}}"
+    }
+  }
+}

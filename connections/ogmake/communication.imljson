@@ -1,0 +1,5 @@
+{
+  "type": "basic",
+  "log": { "sanitize": ["request.headers.authorization"] },
+  "test": { "url": "/v1/usage", "method": "GET" }
+}
